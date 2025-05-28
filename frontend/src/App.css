@@ -1,0 +1,124 @@
+/* App.css */
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+.transaction-form, .filter-section {
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.transaction-form form input,
+.transaction-form form select,
+.filter-section .filters input,
+.filter-section .filters select {
+    width: calc(25% - 10px);
+    padding: 10px;
+    margin: 5px 5px 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.transaction-form form button, 
+.filter-section .filters button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.transaction-form form button:hover, 
+.filter-section .filters button:hover {
+    background-color: #45a049;
+}
+
+/* Table Styles */
+.transaction-history table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.transaction-history th, 
+.transaction-history td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.transaction-history th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.transaction-history tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.transaction-history tr:hover {
+    background-color: #ddd;
+}
+
+.transaction-history .btn-danger {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.transaction-history .btn-danger:hover {
+    background-color: #d32f2f;
+}
+
+/* Current Balance Styles */
+.current-balance {
+    text-align: center;
+    padding: 20px;
+    background-color: #e8f5e9;
+    border-radius: 8px;
+    border: 1px solid #c8e6c9;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.current-balance p {
+    font-size: 2rem;
+    color: #388e3c;
+}

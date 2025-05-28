@@ -1,140 +1,70 @@
-# 💰 Finance Journal - Simple Spending Tracker
+# Getting Started with Create React App
 
-**Finance Journal** is a clean, no-frills web app that helps you record daily financial transactions like a digital money diary. It provides basic **Create, Read, and Delete (CRD)** operations for managing financial records, powered by **PostgreSQL** and **pgAdmin**.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-While the current version offers essential functionality, it lacks an **Update (U)** feature and user authentication. Additionally, it does not yet include advanced features like data visualization.
+## Available Scripts
 
-Future updates will address these gaps to improve user experience and security.
+In the project directory, you can run:
 
----
+### `npm start`
 
-![Dashboard Screenshot](https://github.com/user-attachments/assets/6b13c3b3-2760-4f27-8b4f-d3b7e8157465)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## ✨ Key Features
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- 📊 Interactive financial dashboard
-- ➕ Create new financial records
-- 👀 View transaction history
-- ❌ Delete unwanted entries
-- 🗃️ PostgreSQL database integration
-- 🔄 Real-time data updates
+### `npm test`
 
-## 🚀 Upcoming Features
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- 🔄 Update functionality (completing CRUD)
-- 🔐 User authentication system
-- 📈 Advanced data visualization
-- 📱 Mobile-responsive design
+### `npm run build`
 
-## 🛠️ Tech Stack
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Frontend
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- React.js
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Backend
+### `npm run eject`
 
-- Node.js
-- Express.js
-- PostgreSQL
-- pgAdmin
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## 🏗️ Project Structure
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-```text
-📦 project-root
-├── 📂 backend
-│   ├── 📄 package-lock.json
-│   ├── 📄 package.json
-│   └── 📄 server.js
-│
-├── 📂 frontend
-│   ├── 📂 public
-│   │   ├── 📄 index.html
-│   │   ├── 📄 manifest.json
-│   │   └── 📄 robots.txt
-│   │
-│   ├── 📂 src
-│   │   ├── 📄 App.css
-│   │   ├── 📄 App.js
-│   │   ├── 📄 App.test.js
-│   │   ├── 📄 Login.js
-│   │   ├── 📄 Signup.js
-│   │   ├── 📄 index.css
-│   │   ├── 📄 index.js
-│   │   ├── 📄 reportWebVitals.js
-│   │   └── 📄 setupTests.js
-│   │
-│   ├── 📄 package-lock.json
-│   ├── 📄 package.json
-│   └── 📄 README.md
-│
-└── 📄 README.md
-```
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-## 👥 Team Members
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-- [**Prabhmeet Singh**](https://github.com/prabhmeet-kira)
-- [**Aryan Jain**](https://github.com/08-Aryan)
+## Learn More
 
----
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## ⚙️ Setup and Installation
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Prerequisites
+### Code Splitting
 
-- **Node.js** installed on your machine
-- **PostgreSQL** installed and configured
-- **pgAdmin** set up for managing the PostgreSQL database
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Steps
+### Analyzing the Bundle Size
 
-1. **Clone the repository**:
-   ```bash
-   https://github.com/prabhmeet-kira/Finance-Tracker.git
-   ```
-2. **Navigate to the project directory**:
-   ```bash
-   cd personal-finance-tracking-system
-   ```
-3. **Install backend dependencies**:
-   ```bash
-   cd backend
-   npm install
-   ```
-4. **Install frontend dependencies**:
-   ```bash
-   cd frontend
-   npm install
-   ```
-5. **Set up environment variables**:
-   Create a .env file in the backend directory with the following content:
-   ```bash
-   DATABASE_URL=your-postgresql-connection-url
-   ```
-6. **Start the backend server**:
-   ```bash
-   cd backend
-   node server.js
-   ```
-7. **Start the frontend development server**:
-   ```bash
-   cd frontend
-   npm start
-   ```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-## 🌐 Accessing the Application
+### Making a Progressive Web App
 
-Open your browser and navigate to:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-```bash
-http://localhost:3000
-```
+### Advanced Configuration
 
-## 🚀 Future Plans
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-```bash
-Add update (U) functionality to complete CRUD operations.
-Include user authentication for personalized dashboards.
-Add data visualization features for better financial insights.
-```
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
